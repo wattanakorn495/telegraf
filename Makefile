@@ -45,8 +45,8 @@ go-install:
 
 .PHONY: install
 install: telegraf
-	mkdir -p $(DESTDIR)$(PREFIX)/bin/
-	cp telegraf $(DESTDIR)$(PREFIX)/bin/
+	sudo mkdir -p $(DESTDIR)$(PREFIX)/bin/
+	sudo cp telegraf $(DESTDIR)$(PREFIX)/bin/
 
 
 .PHONY: test
